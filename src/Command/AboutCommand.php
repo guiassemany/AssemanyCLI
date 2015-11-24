@@ -17,6 +17,6 @@ class AboutCommand extends Command
     }
     protected function execute(InputInterface $input, OutputInterface $output)
     {
-        $output->writeln('Hello! This is the ACG! Welcome!');
+        $output->writeln('Hello! This is the Assemany Code Generator! Welcome!');
     }
 }
