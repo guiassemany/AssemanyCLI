@@ -1,0 +1,15 @@
+{
+    "name": "guiassemany/ACG",
+    "description": "Gerador de Código PHP",
+    "keywords": ["Assemany", "Code", "Generator"],
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "symfony/consle": "^2.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "ACG\\": "src/"
+        }
+    }
+}

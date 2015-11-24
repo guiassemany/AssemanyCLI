@@ -1,0 +1,11 @@
+<?php
+
+require __DIR__.'/../vendor/autoload.php';
+
+use ACG\Command;
+use Symfony\Component\Console\Application;
+
+$application = new Application('Assemany Code Generator', '0.1-dev');
+$application->add(new Command\AboutCommand());
+$application->add(new Command\MakeControllerCommand());
+$application->run();
